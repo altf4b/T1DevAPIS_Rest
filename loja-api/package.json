@@ -1,12 +1,25 @@
 {
-  "name": "loja-api",
+  "name": "api",
   "version": "1.0.0",
+  "description": "API REST para Loja Online",
+  "keywords": [
+    "API",
+    "REST",
+    "loja",
+    "jwt",
+    "autenticação"
+  ],
+  "license": "ISC",
+  "author": "Fabricio Nascimento dos Santos",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^5.2.1",
+    "http-errors": "^2.0.1",
+    "knex": "^3.2.10",
+    "mysql": "^2.18.1"
+  }
 }
